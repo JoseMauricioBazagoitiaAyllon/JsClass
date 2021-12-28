@@ -13,4 +13,7 @@ class Empleado extends Persona{
     set sueldo(sueldo){
         this._sueldo = sueldo;
     }
+    toString(){
+        return super.toString()+ " " +this.idEmpleado+" "+ this.sueldo;
+    }
 }
